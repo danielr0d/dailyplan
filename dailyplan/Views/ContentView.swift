@@ -24,10 +24,9 @@ struct ContentView : View {
             Text(activity.description)
                 .foregroundColor(.secondary)
                 .lineLimit(nil)
-
             }
-
         }
+        Text("after bp")
     }
 
 }
