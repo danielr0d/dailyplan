@@ -13,20 +13,21 @@ struct ContentView : View {
     
     var body: some View {
         
-// *** FIX LIST ACTIVITIES ***
         List(model.activities) { activity in
-
-            VStack(alignment: .leading) {
-
-            Text(activity.title)
-                .lineLimit(nil)
-
-            Text(activity.description)
-                .foregroundColor(.secondary)
-                .lineLimit(nil)
-            }
+            
+//            VStack(alignment: .leading) {
+//
+//            Text(activity.title)
+//                .lineLimit(nil)
+//
+//            Text(activity.description)
+//                .foregroundColor(.secondary)
+//                .lineLimit(nil)
+//
+//            }
+            Text("test")
         }
-        Text("after bp")
+        Text("test")
     }
 
 }
