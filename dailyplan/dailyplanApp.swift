@@ -12,6 +12,7 @@ struct dailyplanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            ChartView()
         }
     }
 }
