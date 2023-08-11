@@ -14,15 +14,26 @@ struct ContentView : View {
     var body: some View {
         
         NavigationView {
-                    NavigationLink {
-                        ChartView()
-                    } label: {
-                        VStack {
-                            Text("Navigate to Chart")
-                        }
-                        .padding()
-                    }
+            NavigationLink {
+                ChartView()
+            } label: {
+                VStack {
+                    Text("Navigate to Chart")
                 }
+                .padding()
+            }
+        }
+        NavigationView {
+            NavigationLink {
+                ActivityView()
+            } label: {
+                VStack {
+                    Text("bolsonaro")
+                }
+            }
+            .padding(.top)
+        }
+        
         
 //        List(model.activities) { activity in
 //            VStack(alignment: .leading) {
