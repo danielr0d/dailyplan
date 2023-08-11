@@ -13,8 +13,18 @@ struct ContentView : View {
     
     var body: some View {
         
-        List(model.activities) { activity in
-            
+        NavigationView {
+                    NavigationLink {
+                        ChartView()
+                    } label: {
+                        VStack {
+                            Text("Navigate to Chart")
+                        }
+                        .padding()
+                    }
+                }
+        
+//        List(model.activities) { activity in
 //            VStack(alignment: .leading) {
 //
 //            Text(activity.title)
@@ -25,7 +35,6 @@ struct ContentView : View {
 //                .lineLimit(nil)
 //
 //            }
-        }
         Text("test")
     }
 
