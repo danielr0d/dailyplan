@@ -15,3 +15,4 @@ struct Activity: Codable {
     let title: String
     let description: String?
 }
+
