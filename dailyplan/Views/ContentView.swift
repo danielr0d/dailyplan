@@ -28,7 +28,7 @@ struct ContentView : View {
                 ActivityView()
             } label: {
                 VStack {
-                    Text("bolsonaro")
+                    Text("Navigate to Activities")
                 }
             }
             .padding(.top)

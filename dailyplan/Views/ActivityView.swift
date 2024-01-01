@@ -7,9 +7,18 @@
 
 import SwiftUI
 
+
 struct ActivityView: View {
+    @State private var multiSelection = Set<UUID>()
+    
     var body: some View {
         Text("Acitivity List")
+        List {
+            Text("Activity 1")
+            Text("Activity 2")
+            Text("Activity 3")
+        }
+        
     }
 }
 
