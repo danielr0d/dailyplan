@@ -25,10 +25,21 @@ private var activities = [
 struct ActivityView: View {
     @State private var multiSelection = Set<UUID>()
     
+    func addItem() {
+        print("Nyan")
+    }
+    
     var body: some View {
-        List (activities, selection: $multiSelection){
-            Text($0.title)
+        
+        List (selection: $multiSelection){
+            ForEach(activities) {activities in
+                Text(activities.title)
+            }
+            Button(action: addItem) {
+                   Label("Add Activity", systemImage: "plus")
+               }
         }
+        
         .navigationTitle("Activity")
         .toolbar {EditButton()}
     }
