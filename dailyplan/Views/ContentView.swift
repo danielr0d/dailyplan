@@ -18,7 +18,8 @@ struct ContentView : View {
                 ChartView()
             } label: {
                 VStack {
-                    Text("Navigate to Chart")
+                    Label("Your account", systemImage: "folder.circle")
+                    
                 }
                 .padding()
             }
