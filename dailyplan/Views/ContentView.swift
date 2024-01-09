@@ -18,7 +18,7 @@ struct ContentView : View {
                 ChartView()
             } label: {
                 VStack {
-                    Label("Your account", systemImage: "folder.circle")
+                    Label("Your activities", systemImage: "folder.circle")
                     
                 }
                 .padding()
@@ -29,7 +29,7 @@ struct ContentView : View {
                 ActivityView()
             } label: {
                 VStack {
-                    Text("Navigate to Activities")
+                    Label("Your activities", systemImage: "folder.circle")
                 }
             }
             .padding(.top)
