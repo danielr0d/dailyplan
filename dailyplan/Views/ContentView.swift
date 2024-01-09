@@ -18,7 +18,7 @@ struct ContentView : View {
                 ChartView()
             } label: {
                 VStack {
-                    Label("Your activities", systemImage: "folder.circle")
+                    Label("Activities graph", systemImage: "chart.bar")
                     
                 }
                 .padding()
@@ -29,7 +29,7 @@ struct ContentView : View {
                 ActivityView()
             } label: {
                 VStack {
-                    Label("Your activities", systemImage: "folder.circle")
+                    Label("Your activities list", systemImage: "calendar.circle.fill")
                 }
             }
             .padding(.top)
