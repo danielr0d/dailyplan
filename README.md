@@ -1,1 +1,1 @@
-# a swift/swiftui project based on mvvm architecture.
+# a swift/swiftui project.
