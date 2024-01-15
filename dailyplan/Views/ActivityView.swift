@@ -40,7 +40,7 @@ struct ActivityView: View {
                }
         }
         
-        .navigationTitle("Activity")
+        .navigationTitle("Activities")
         .toolbar {EditButton()}
     }
 }
